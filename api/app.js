@@ -8,12 +8,12 @@ app.use(cors());
 app.get("/", (req, res) => {
   res.json([
     {
-      id: "5",
+      id: "1",
       title: "Book Review: The Bear & The Nightingale",
     },
     {
       id: "2",
-      title: "Game Review: Pokemon Brillian Diamond",
+      title: "Game Review: Pokemon Brilliant Diamond",
     },
     {
       id: "3",
